@@ -27,7 +27,7 @@ def train_fn(model, data_loader, loss_fn, optimizer, device):
 
 
 def eval_fn(model, data_loader, device):
-    # set model into evalution mode
+    # set model into evalution mode  ..
 
     model = model.eval()
     correct = 0
